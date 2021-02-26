@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sajtóközlemény a terrortámadásokkal kapcsolatban
+title: Sajtóközlemény a terrortámadásokkal kapcsolatban222
 date: 2020-11-04 10:00:00 Z
 thumb: "/img/news/202011041000.jpg"
 link: /cikk/2020-11-04-sajtokozlemeny/

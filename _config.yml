@@ -1,0 +1,40 @@
+---
+title: Új Kezdet
+timezone: UTC
+collections:
+  boardmembers:
+    title: Boardmembers
+    output: true
+    permalink: "/tag/:path/"
+  pages:
+    title: Pages
+    output: true
+    permalink: "/tartalom/:path/"
+  posts:
+    title: Posts
+    output: true
+    permalink: "/cikk/:path/"
+  postsarch:
+    title: Postsarchive
+    output: true
+    permalink: "/cikk/:path/"
+  uploads:
+    title: Uploads
+    output: true
+email: kapcsolat@ujkezdet.hu
+description: "Magyarországnak újra szilárd, a jogállamiságot biztosító jogalapokra van szüksége - egy Új Kezdetre."
+baseurl:
+url:
+twitter_username: uj_kezdet
+facebook_username: ujkezdet.hu
+markdown: kramdown
+rdiscount:
+  extensions:
+  - smart
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
+exclude:
+- Gemfile
+- Gemfile.lock

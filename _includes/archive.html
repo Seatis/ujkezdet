@@ -1,0 +1,16 @@
+<div id="archive" class="blog-area section pb-90 pt-50">
+  <div class="container">
+    <div class="row">
+      {% for post in site.postsarch reversed %}
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="archive-month"></div>
+          <div class="news-container">
+            <div class="img-container"><a href="{{post.link}}" target="_blank"><img src="{{post.thumb}}" alt=""></a></div>
+            <div class="title"><a href="{{post.link}}" target="_blank"><span>{{post.title}}</span></a></div>
+            <div class="date"><span><i class="zmdi zmdi-calendar-check"></i>&nbsp;{{post.date | date: "%Y-%m-%d %H:%M"}}</span></div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

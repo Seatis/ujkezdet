@@ -11,6 +11,7 @@ layout: default
 <!-- {% include conference.html %} -->
 <!-- {% include press.html %} -->
 <!-- {% include awareness.html %} -->
+{% include mzp.html %}
 {% include manifesztum.html %}
 {% include tsz.html %}
 {% include news.html %}

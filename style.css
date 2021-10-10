@@ -3036,6 +3036,11 @@ div.w-img-area img {
   max-width: 500px;
 }
 
+div.dl-icon-area img {
+  max-width: 250px;
+  margin-bottom: -50px;
+}
+
 div.w-text-area {
   line-height: 150%;
 }
@@ -3049,9 +3054,17 @@ div.w-text-area {
     padding-right: 10px;
   }
 
-  div.w-img-area img {
+  div.w-img-area img, div.dl-icon-area img {
     width: 100%;
     height: auto;
+  }
+
+  div.dl-text-area a {
+    font-size: 1.2em !important;
+  }
+
+  div.mzp-title h1 {
+    line-height: 24px;
   }
 }
 

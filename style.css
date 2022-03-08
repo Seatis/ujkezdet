@@ -3036,6 +3036,11 @@ div.w-img-area img {
   max-width: 500px;
 }
 
+div.em-img-area img {
+  width: 100%;
+    height: auto;
+}
+
 div.dl-icon-area img {
   max-width: 250px;
   margin-bottom: -50px;
@@ -3043,6 +3048,13 @@ div.dl-icon-area img {
 
 div.w-text-area {
   line-height: 150%;
+}
+
+@media all and (max-width: 1200px) {
+  div.em-img-area img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media all and (max-width: 800px) {
@@ -3055,6 +3067,11 @@ div.w-text-area {
   }
 
   div.w-img-area img, div.dl-icon-area img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.em-img-area img {
     width: 100%;
     height: auto;
   }
